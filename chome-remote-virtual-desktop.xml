@@ -8,7 +8,9 @@
     <Support>https://github.com/DomiStyle/docker-idrac6/issues</Support>
     <Project>https://github.com/googleg/chrome-remote-desktop-image</Project>
     <Overview>This provides a lightweight Linux virtual desktop environment that is accessible using Chrome Remote Desktop. Therefore, accessing the virtual desktop does not require any port redirection on your router and benefits from the identity protection provided by Google (including multi-factor authentication).</Overview>
-    <Category>Tools:Utilities</Category>
+    <Beta>True</Beta>
+    <Category>Tools:</Category>
+    <TemplateURL>https://raw.githubusercontent.com/googleg/unraid-templates/refs/heads/main/chome-remote-virtual-desktop.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/googleg/chrome-remote-desktop-image/refs/heads/master/chrome-remote-virtual-desktop-icon.png</Icon>
     <ExtraParams>--restart unless-stopped</ExtraParams>
     <Description>This container is based on Ubuntu and contains the XFCE Desktop Environment, Chrome Remote Desktop, and the Firefox browser.</Description>
