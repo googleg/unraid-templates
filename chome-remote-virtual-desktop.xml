@@ -5,7 +5,7 @@
     <Registry>https://hub.docker.com/r/googleg/chrome-remote-desktop-vdi</Registry>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://github.com/DomiStyle/docker-idrac6/issues</Support>
+    <Support>https://forums.unraid.net/topic/190565-support-googleg-chrome-remote-virtual-desktop/</Support>
     <Project>https://github.com/googleg/chrome-remote-desktop-image</Project>
     <Overview>This provides a lightweight Linux virtual desktop environment that is accessible using Chrome Remote Desktop. Therefore, accessing the virtual desktop does not require any port redirection on your router and benefits from the identity protection provided by Google (including multi-factor authentication).</Overview>
     <Beta>True</Beta>
