@@ -10,7 +10,7 @@
     <Overview>IPXBOX is a lightweight IPX network server that's compatible with the x86 emulator DOSBox. By default, it acts as a forwarding server between DOSBox clients, which allows them to communicate over a network using the classic IPX protocol. This protocol was typically used for early network games like Doom, Duke Nukem 3D, and Quake. IPXBOX can also be bridged to a physical network, which lets emulated DOSBox users play alongside users on actual DOS machines. Additionally, IPXBOX provides advanced features such as TCP/IP over IPX and a PPTP server.</Overview>
     <Beta>false</Beta>
     <Category>Tools:</Category>
-    <TemplateURL>XXXhttps://raw.githubusercontent.com/googleg/unraid-templates/refs/heads/main/chome-remote-virtual-desktop.xml</TemplateURL>
+    <TemplateURL>https://github.com/googleg/unraid-templates/blob/main/ipxbox.xml</TemplateURL>
     <Icon>XXXhttps://raw.githubusercontent.com/googleg/unraid-icons/refs/heads/main/chrome-rdk-icon.png</Icon>
     <ExtraParams>--restart unless-stopped</ExtraParams>
     <Config Name="Host name" Target="HOSTNAME" Default="myvirtualdesktop" Mode="" Description="The name your host will be shown in Remote devices list on Chrome Remote Desktop website or application." Type="Variable" Display="always" Required="true" Mask="false"/>
