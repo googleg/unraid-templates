@@ -13,9 +13,8 @@
     <TemplateURL>https://github.com/googleg/unraid-templates/blob/main/ipxbox.xml</TemplateURL>
 	<Icon>https://raw.githubusercontent.com/googleg/unraid-icons/refs/heads/main/ipxbox-icon.png</Icon>
     <ExtraParams>--restart unless-stopped</ExtraParams>
-    <Config Name="Host name" Target="HOSTNAME" Default="myvirtualdesktop" Mode="" Description="The name your host will be shown in Remote devices list on Chrome Remote Desktop website or application." Type="Variable" Display="always" Required="true" Mask="false"/>
     <Config Name="Port" Target="10000" Default="10000" Mode="udp" Description="UDP port on which the IPXBOX server will be listening." Type="Port" Display="always" Required="false" Mask="false">10000</Config>
 	<Config Name="PUID" Target="USER_ID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
     <Config Name="PGID" Target="GROUP_ID" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
-	<Config Name="IPXBOX parameters" Target="EXTRA_PARAMS" Default="" Mode="" Description="Extra parameters passed to IPXBOX server (please refer to the project documentation). Separate each parameters with a space. Can be a combinaison of -dump_packets, -allow_netbios -enable_ipxpkt and -enable_pptp." Type="Variable" Display="advanced" Required="false" Mask="false"/>
+	<Config Name="IPXBOX parameters" Target="EXTRA_PARAMS" Default="" Mode="" Description="Extra parameters passed to IPXBOX server (please refer to the project documentation). Separate parameters with a space. Can be a combinaison of -dump_packets, -allow_netbios, -enable_ipxpkt and -enable_pptp." Type="Variable" Display="advanced" Required="false" Mask="false"/>
 </Container>
